@@ -773,6 +773,7 @@
   <script>
     // Particle Network Animation (adapted from 21st.dev Aether Flow Hero)
     (function () {
+      if (window.innerWidth < 768) return;
       const canvas = document.getElementById('particle-canvas');
       if (!canvas) return;
       const ctx = canvas.getContext('2d');
