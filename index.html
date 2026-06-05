@@ -93,7 +93,8 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="style.css">
+<link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="style.css"></noscript>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" media="print" onload="this.media='all'">
@@ -101,7 +102,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap"></noscript>
 <style>
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; background: #070e09; }
+  body { background: #070e09; color: #dde8dd; margin: 0; }
+  header, nav { background: transparent; }
 
 
 
